@@ -3,6 +3,7 @@ class Product {
   final String productName;
   final String productImage;
   final String productDescription;
+  final String long;
   final double price;
 
   Product({
@@ -10,6 +11,7 @@ class Product {
     required this.productName,
     required this.productImage,
     required this.productDescription,
+    required this.long,
     required this.price,
   });
 }
